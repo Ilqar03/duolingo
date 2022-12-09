@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* Ul,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: #235390;
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+nav div {
+  width: 55%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+nav div .navlogo img {
+  cursor: pointer;
+  width: 145px;
+  height: 45px;
+}
+nav div .dropdown {
+  width: 213px;
+  height: 25px;
+}
+nav div .dropdown p {
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+}
+
+main {
+  background-color: #235390;
+}
+main .earth {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/ulduz.svg);
+}
+main .earth div {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 1065px) {
+  main .earth div {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    gap: none;
+  }
+  main .earth div .country {
+    display: none;
+  }
+}
+main .earth div .earth_item {
+  width: 705px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+main .earth div .earth_item h1 {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+main .earth div .earth_item .green {
+  cursor: pointer;
+  width: 320px;
+  height: 46px;
+  background-color: #58a700;
+  border-radius: 15px;
+  font-size: 15px;
+  color: white;
+  border: solid #58a700;
+  box-shadow: 0px 3px green;
+}
+main .earth div .earth_item .blue {
+  cursor: pointer;
+  margin-top: 10px;
+  width: 320px;
+  height: 48px;
+  background-color: #235390;
+  border-radius: 15px;
+  font-size: 15px;
+  color: white;
+  border: solid #042c60;
+  box-shadow: 0px 2px #042c60;
+}
+main .earth .country {
+  width: 100%;
+  height: 74px;
+  background-color: #0a4a82;
+  position: absolute;
+  bottom: 0;
+}/*# sourceMappingURL=main.css.map */

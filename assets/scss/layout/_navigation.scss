@@ -1,0 +1,30 @@
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: #235390;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  div {
+    width: 55%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    .navlogo {
+      img {
+        cursor: pointer;
+        width: 145px;
+        height: 45px;
+      }
+    }
+    .dropdown {
+      width: 213px;
+      height: 25px;
+      p {
+        font-size: 15px;
+        cursor: pointer;
+        color: white;
+      }
+    }
+  }
+}
